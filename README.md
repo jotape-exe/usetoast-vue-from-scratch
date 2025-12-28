@@ -4,6 +4,12 @@ Um projeto educacional e minimalista que demonstra **como criar um sistema de To
 
 O objetivo aqui **não é só usar**, mas **entender a arquitetura por trás** de um `useToast()` bem feito.
 
+### Preview
+<img width="1365" height="671" alt="image" src="https://github.com/user-attachments/assets/f4d4dede-18fa-493d-97ad-3ff8bee9d7a2" />
+<img width="1365" height="680" alt="image" src="https://github.com/user-attachments/assets/03bb24bc-6c6f-4b16-950d-0bb5d28f6272" />
+
+
+
 ---
 
 ## ✨ O que esse projeto demonstra
@@ -74,3 +80,4 @@ Esse projeto não é uma lib pronta, é um guia prático para:
 - TypeScript
 - Vite
 - Composition API
+
