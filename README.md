@@ -17,23 +17,8 @@ O objetivo aqui **não é só usar**, mas **entender a arquitetura por trás** d
   ```ts
   toast.show({
     title: 'Sucesso!',
-    description: 'Operação realizada com sucesso'
   })
   ```
-
-## 🧩 Arquitetura
-
-<pre>
-src/
-├─ composables/
-│  └─ useToast.ts
-│
-├─ components/
-│  └─ AppToast.vue
-│
-├─ App.vue
-└─ main.ts
-</pre>
 
 ## 🔌 API do Toast
 ```ts
@@ -51,7 +36,6 @@ Exibe um novo toast.
 ```ts
 toast.show({
   title: 'Hello World',
-  description: 'Esse toast foi criado do zero 🚀',
   variant: 'success',
   duration: 3000
 })
@@ -71,7 +55,7 @@ Exemplo conceitual:
 
 ```vue
 <Teleport to="body">
-  <AppToast />
+  <AppToastProvider />
 </Teleport>
 ```
 
